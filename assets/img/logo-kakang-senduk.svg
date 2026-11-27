@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d77f"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9a7b1c"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#142b3b"/>
+      <stop offset="100%" stop-color="#0a1822"/>
+    </linearGradient>
+  </defs>
+  <circle cx="250" cy="250" r="235" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="8"/>
+  <circle cx="250" cy="250" r="215" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Crown / Tiara Motif -->
+  <path d="M170 200 L210 160 L250 185 L290 160 L330 200 L310 230 L190 230 Z" fill="url(#goldGrad)" opacity="0.9"/>
+  <!-- Reyog Fan Wing Silhouette -->
+  <path d="M120 280 C120 210 180 150 250 150 C320 150 380 210 380 280 C360 270 340 265 310 265 C280 265 260 275 250 280 C240 275 220 265 190 265 C160 265 140 270 120 280 Z" fill="#ffffff" opacity="0.1"/>
+  <!-- Text Elements -->
+  <text x="250" y="275" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="4">KAKANG SENDUK</text>
+  <text x="250" y="310" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="600" fill="#e8edf0" text-anchor="middle" letter-spacing="6">KABUPATEN PONOROGO</text>
+  <text x="250" y="340" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="500" fill="#9eb1be" text-anchor="middle" letter-spacing="3">DUTA WISATA DAERAH</text>
+  <!-- Decorative stars -->
+  <polygon points="250,115 254,125 265,125 256,131 259,141 250,135 241,141 244,131 235,125 246,125" fill="url(#goldGrad)"/>
+  <polygon points="200,130 203,137 210,137 204,141 206,148 200,144 194,148 196,141 190,137 197,137" fill="url(#goldGrad)"/>
+  <polygon points="300,130 303,137 310,137 304,141 306,148 300,144 294,148 296,141 290,137 297,137" fill="url(#goldGrad)"/>
+  <path d="M160 370 Q250 405 340 370" stroke="url(#goldGrad)" stroke-width="2" fill="none"/>
+</svg>

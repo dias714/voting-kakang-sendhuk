@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a233b"/>
+      <stop offset="100%" stop-color="#120e1b"/>
+    </linearGradient>
+    <linearGradient id="sdGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fae49d"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+    <linearGradient id="sdYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#f57f17"/>
+    </linearGradient>
+    <linearGradient id="skinGradSd" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fae0cf"/>
+      <stop offset="100%" stop-color="#e8bd9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#sdBg)"/>
+  <!-- Decorative backdrop frame -->
+  <rect x="25" y="25" width="550" height="700" rx="20" fill="none" stroke="url(#sdGold)" stroke-width="2" opacity="0.4"/>
+  <circle cx="300" cy="270" r="160" fill="#ffffff" opacity="0.04"/>
+  <!-- Kerudung / Hijab Kuning Khas Senduk Ponorogo (Ornamen Kuning Emas Cerah) -->
+  <path d="M140 750 C150 540 190 440 250 420 L300 450 L350 420 C410 440 450 540 460 750 Z" fill="url(#sdYellow)"/>
+  <!-- Kebaya Kuning Khas Senduk Ponorogo & Bros Emas -->
+  <path d="M220 460 L390 750 L440 750 L260 450 Z" fill="#1b2a38" opacity="0.95"/>
+  <text x="325" y="615" transform="rotate(57 325,615)" font-family="'DM Sans', Arial, sans-serif" font-weight="bold" font-size="19" fill="url(#sdGold)" letter-spacing="4">SENDUK PONOROGO</text>
+  <!-- Bros Dada Emas -->
+  <circle cx="300" cy="485" r="16" fill="url(#sdGold)"/>
+  <circle cx="300" cy="485" r="8" fill="#1b2a38"/>
+  <path d="M300 460 L300 510 M275 485 L325 485" stroke="url(#sdGold)" stroke-width="3"/>
+  <!-- Neck -->
+  <rect x="272" y="375" width="56" height="70" rx="10" fill="url(#skinGradSd)"/>
+  <!-- Hijab / Rambut Sanggul frame -->
+  <path d="M210 320 C205 210 230 160 300 160 C370 160 395 210 390 320 C380 410 350 430 300 430 C250 430 220 410 210 320 Z" fill="url(#sdYellow)"/>
+  <!-- Head / Face -->
+  <ellipse cx="300" cy="305" rx="68" ry="86" fill="url(#skinGradSd)"/>
+  <!-- Eyes & Smile -->
+  <path d="M265 295 Q278 290 288 295" stroke="#5a3d28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M312 295 Q322 290 335 295" stroke="#5a3d28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="276" cy="300" r="3" fill="#3a2517"/>
+  <circle cx="324" cy="300" r="3" fill="#3a2517"/>
+  <!-- Eyelashes -->
+  <path d="M285 293 L290 288 M315 293 L310 288" stroke="#3a2517" stroke-width="2"/>
+  <path d="M288 345 Q300 358 312 345" stroke="#d84358" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Cunduk Mentul / Tiara Hiasan Senduk -->
+  <circle cx="300" cy="140" r="10" fill="url(#sdGold)"/>
+  <circle cx="270" cy="150" r="8" fill="url(#sdGold)"/>
+  <circle cx="330" cy="150" r="8" fill="url(#sdGold)"/>
+  <path d="M300 150 L300 165 M270 158 L275 168 M330 158 L325 168" stroke="url(#sdGold)" stroke-width="3"/>
+  <!-- Badge Kategori -->
+  <rect x="230" y="45" width="140" height="34" rx="17" fill="url(#sdGold)"/>
+  <text x="300" y="68" font-family="'DM Sans', Arial, sans-serif" font-weight="bold" font-size="14" fill="#120e1b" text-anchor="middle" letter-spacing="2">FINALIS SENDUK</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#193547"/>
+      <stop offset="100%" stop-color="#0b1822"/>
+    </linearGradient>
+    <linearGradient id="kgGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3d57d"/>
+      <stop offset="100%" stop-color="#b88d29"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6d2b5"/>
+      <stop offset="100%" stop-color="#e2b492"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#kgBg)"/>
+  <!-- Decorative backdrop frame -->
+  <rect x="25" y="25" width="550" height="700" rx="20" fill="none" stroke="url(#kgGold)" stroke-width="2" opacity="0.4"/>
+  <circle cx="300" cy="270" r="160" fill="#ffffff" opacity="0.04"/>
+  <!-- Torso & Beskap Hitam Kakang -->
+  <path d="M140 750 C150 550 200 470 260 450 L300 480 L340 450 C400 470 450 550 460 750 Z" fill="#18181c"/>
+  <!-- Beskap Gold Trim / Kancing -->
+  <path d="M300 480 L300 750" stroke="url(#kgGold)" stroke-width="4"/>
+  <circle cx="300" cy="520" r="5" fill="url(#kgGold)"/>
+  <circle cx="300" cy="565" r="5" fill="url(#kgGold)"/>
+  <circle cx="300" cy="610" r="5" fill="url(#kgGold)"/>
+  <circle cx="300" cy="655" r="5" fill="url(#kgGold)"/>
+  <!-- Selempang Kakang Ponorogo (Gold Sash) -->
+  <path d="M210 460 L380 750 L430 750 L250 450 Z" fill="url(#kgGold)" opacity="0.95"/>
+  <text x="315" y="615" transform="rotate(57 315,615)" font-family="'DM Sans', Arial, sans-serif" font-weight="bold" font-size="19" fill="#142b3b" letter-spacing="4">KAKANG PONOROGO</text>
+  <!-- Neck -->
+  <rect x="270" y="370" width="60" height="90" rx="10" fill="url(#skinGrad)"/>
+  <!-- Head / Face -->
+  <ellipse cx="300" cy="310" rx="75" ry="95" fill="url(#skinGrad)"/>
+  <!-- Smile & Eyes (Stylized) -->
+  <path d="M260 300 Q275 295 285 300" stroke="#5a3d28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M315 300 Q325 295 340 300" stroke="#5a3d28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="272" cy="305" r="3" fill="#3a2517"/>
+  <circle cx="328" cy="305" r="3" fill="#3a2517"/>
+  <path d="M285 350 Q300 365 315 350" stroke="#a65444" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Udheng / Blangkon Khas Ponorogo (Batik & Mondholan) -->
+  <path d="M220 280 C220 200 240 180 300 180 C360 180 380 200 380 280 C360 250 340 240 300 240 C260 240 240 250 220 280 Z" fill="#2c221c"/>
+  <path d="M215 265 Q300 230 385 265 L375 285 Q300 250 225 285 Z" fill="url(#kgGold)"/>
+  <path d="M230 250 Q300 220 370 250" stroke="#e07a3c" stroke-width="4" stroke-dasharray="6 4" fill="none"/>
+  <!-- Badge Kategori -->
+  <rect x="230" y="45" width="140" height="34" rx="17" fill="url(#kgGold)"/>
+  <text x="300" y="68" font-family="'DM Sans', Arial, sans-serif" font-weight="bold" font-size="14" fill="#0b1822" text-anchor="middle" letter-spacing="2">FINALIS KAKANG</text>
+</svg>

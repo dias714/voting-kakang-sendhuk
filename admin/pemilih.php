@@ -1,0 +1,4 @@
+<?php
+require_once __DIR__.'/../config/fungsi.php';require_admin();$rows=$pdo->query("SELECT u.id,u.nama,u.email,u.no_hp,u.created_at,COUNT(v.id) jumlah_suara FROM users u LEFT JOIN voting v ON v.user_id=u.id WHERE u.role='pemilih' GROUP BY u.id ORDER BY u.created_at DESC")->fetchAll();$page_title='Data Pemilih';require __DIR__.'/_layout_top.php';?>
+<h1 class="section-title mb-4">Data Pemilih</h1><div class="panel table-responsive"><table class="table"><thead><tr><th>Nama</th><th>Email</th><th>Nomor HP</th><th>Suara diberikan</th><th>Registrasi</th></tr></thead><tbody><?php foreach($rows as $u): ?><tr><td><?= e($u['nama']) ?></td><td><?= e($u['email']) ?></td><td><?= e($u['no_hp']) ?></td><td><?= (int)$u['jumlah_suara'] ?>/2</td><td><?= e($u['created_at']) ?></td></tr><?php endforeach; ?></tbody></table></div>
+<?php require __DIR__.'/_layout_bottom.php'; ?>

@@ -1,0 +1,4 @@
+<?php
+require_once __DIR__.'/../config/fungsi.php';require_admin();$rows=$pdo->query('SELECT v.created_at,u.nama pemilih,u.email,k.nama kontestan,k.nomor_peserta,v.kategori FROM voting v JOIN users u ON u.id=v.user_id JOIN kontestan k ON k.id=v.kontestan_id ORDER BY v.created_at DESC')->fetchAll();$page_title='Hasil Voting';require __DIR__.'/_layout_top.php';?>
+<h1 class="section-title mb-4">Hasil dan Riwayat Voting</h1><div class="panel table-responsive"><table class="table"><thead><tr><th>Waktu</th><th>Pemilih</th><th>Email</th><th>Kategori</th><th>Kontestan</th><th>Nomor</th></tr></thead><tbody><?php foreach($rows as $v): ?><tr><td><?= e($v['created_at']) ?></td><td><?= e($v['pemilih']) ?></td><td><?= e($v['email']) ?></td><td><?= e($v['kategori']) ?></td><td><?= e($v['kontestan']) ?></td><td><?= e($v['nomor_peserta']) ?></td></tr><?php endforeach; ?></tbody></table></div>
+<?php require __DIR__.'/_layout_bottom.php'; ?>
